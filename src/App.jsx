@@ -56,8 +56,8 @@ export default function App() {
       {showAbout && (
         <div className="info-container">
           <p>
-            Acerca de este juego 1: Este juego fue desarrollado para simular una
-            carretera con obstáculos. Fue creado con React.js.
+            Acerca de 1: Este juego fue desarrollado para simular una carretera
+            con obstáculos. Fue creado con React.js.
           </p>
           <button className="close-button" onClick={() => setShowAbout(false)}>
             Cerrar
